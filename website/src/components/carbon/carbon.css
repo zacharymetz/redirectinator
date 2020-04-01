@@ -1,0 +1,4 @@
+.toggled{
+    display: flex!important;
+    transition: all .3s ease-in-out;
+}

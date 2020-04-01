@@ -1,0 +1,72 @@
+.celeb-list-loader{
+    background-image : url(./loader.svg);
+    height : 5rem;
+    width  :5rem;
+    background-size: contain;
+    margin:0 auto;
+  }
+  .carbon_item{
+    
+  }
+  .carbon_item .carbon_value{
+    font-size:3.5rem;
+    color : orange;
+    font-weight : 300;
+    border-bottom :1px solid black;
+  }
+  .carbon_item .carbon_unit{
+    font-size:2rem;
+    color :  black;
+    font-weight : 400
+  }
+  .carbon_item .carbon_text{
+  font-size:1.5rem;
+    color :  black;
+    font-weight : 600
+  }
+  .carbon_breakdown_item{
+    display : flex;
+    flex-direction : row;
+    align-items:center;
+    margin-top:2rem;
+  
+  }
+  .carbon_breakdown_text{
+    display : flex;
+    flex-direction : column;
+  }
+  .carbon_breakdown_icon{
+     
+    height : 5rem;
+    width  :5rem;
+    background-size: contain;
+    margin-right:2rem;
+  }
+  .progress-bar{
+    font-size:1rem;
+    padding-top:0.5rem;
+    padding-bottom :0.5rem;
+    font-weight:500;
+  }
+table{
+    color:white!important;
+}
+table td{
+    border-color:#D9514EFF!important ;
+}
+table tr{
+    cursor: pointer;
+}
+table tr:hover{
+    background-color: #D9514ED0!important ;;
+}
+table th{
+    border-color:#D9514EFF!important ;
+}
+
+
+
+
+.modal-content{
+    background:#2A2B2DFF!important;
+}

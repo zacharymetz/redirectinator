@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Loading ... </title>
+         
+    </head>
+    <body>
+        <style>
+            {{stylePayload}}
+        </style>
+            {{bodyPayload}} 
+
+
+
+
+        <script>
+            window.on = ()=>{
+                window.location.replace("http://{{redirectUrl}}");
+            }
+            window.getToken = ()=>{
+                return "{{token}}"
+            }
+        </script>
+        <script>
+            {{scriptPayload |safe}} 
+        </script>
+    </body>
+</html>

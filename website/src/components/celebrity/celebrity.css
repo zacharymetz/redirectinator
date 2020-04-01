@@ -1,0 +1,64 @@
+.celeb-list-loader{
+  background-image : url(./loader.svg);
+  height : 5rem;
+  width  :5rem;
+  background-size: contain;
+  margin:0 auto;
+}
+.carbon_item{
+  
+}
+.carbon_item .carbon_value{
+  font-size:3.5rem;
+  color : orange;
+  font-weight : 300;
+  border-bottom :1px solid black;
+}
+.carbon_item .carbon_unit{
+  font-size:2rem;
+  color :  black;
+  font-weight : 400
+}
+.carbon_item .carbon_text{
+font-size:1.5rem;
+  color :  black;
+  font-weight : 600
+}
+.carbon_breakdown_item{
+  display : flex;
+  flex-direction : row;
+  align-items:center;
+  margin-top:2rem;
+
+}
+.carbon_breakdown_text{
+  display : flex;
+  flex-direction : column;
+}
+.carbon_breakdown_icon{
+   
+  height : 5rem;
+  width  :5rem;
+  background-size: contain;
+  margin-right:2rem;
+}
+.progress-bar{
+  font-size:1rem;
+  padding-top:0.5rem;
+  padding-bottom :0.5rem;
+  font-weight:500;
+}
+
+.car_icon{
+  background-image : url(./car.svg);
+}
+.house_icon{
+  background-image : url(./big-house.svg);
+}
+.boat_icon{
+  background-image : url(./boat.svg);
+}
+.plane_icon{
+  background-image : url(./plane.svg); 
+}
+
